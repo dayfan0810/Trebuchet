@@ -118,7 +118,8 @@
             android:readPermission="org.lineageos.trebuchet.permission.READ_SETTINGS" />
 
         <activity
-            android:name="com.android.launcher3.MyLaucnher"
+            android:excludeFromRecents="true"
+            android:name="com.android.launcher3.MyLauncher"
             android:clearTaskOnLaunch="true"
             android:enabled="true"
             android:launchMode="singleTask"

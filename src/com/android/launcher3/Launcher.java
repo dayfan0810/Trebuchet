@@ -174,7 +174,7 @@ public class Launcher extends BaseActivity
                    AccessibilityManager.AccessibilityStateChangeListener,
                    WallpaperColorInfo.OnThemeChangeListener {
     public static final String TAG = "Launcher";
-    static final boolean LOGD = false;
+    static final boolean LOGD = true;
 
     static final boolean DEBUG_WIDGETS = false;
     static final boolean DEBUG_STRICT_MODE = false;

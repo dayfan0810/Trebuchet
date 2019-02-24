@@ -3037,6 +3037,7 @@ public class Launcher extends BaseActivity
     }
 
     public void enterSpringLoadedDragMode() {
+        Log.i("deng","enterSpringLoadedDragMode", new Throwable("deng"));
         if (LOGD) Log.d(TAG, String.format("enterSpringLoadedDragMode [mState=%s", mState.name()));
         if (isStateSpringLoaded()) {
             return;

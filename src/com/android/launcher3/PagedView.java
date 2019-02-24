@@ -60,7 +60,7 @@ import java.util.ArrayList;
  */
 public abstract class PagedView extends ViewGroup implements ViewGroup.OnHierarchyChangeListener {
     private static final String TAG = "PagedView";
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
     protected static final int INVALID_PAGE = -1;
 
     // the min drag distance for a fling to register, to prevent random page shifts

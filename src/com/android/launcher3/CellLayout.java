@@ -73,7 +73,7 @@ public class CellLayout extends ViewGroup implements BubbleTextShadowHandler {
     public static final int FOLDER_ACCESSIBILITY_DRAG = 1;
 
     private static final String TAG = "CellLayout";
-    private static final boolean LOGD = false;
+    private static final boolean LOGD = true;
 
     private final Launcher mLauncher;
     @ViewDebug.ExportedProperty(category = "launcher")
